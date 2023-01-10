@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import ListCast from './components/ListCast';
 import Modals from './components/Modals';
 
+
 function App() {
   const name = 'StarGazers'
   const [cast, setCast] = useState([]);
